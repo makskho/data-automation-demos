@@ -1,0 +1,114 @@
+{
+  "annotations_read": 20,
+  "annotations_accepted": 20,
+  "annotations_rejected": 0,
+  "reject_reasons": {},
+  "annotators": {
+    "ann_a": 10,
+    "ann_b": 10
+  },
+  "label_distribution": {
+    "billing": 6,
+    "cancellation": 4,
+    "praise": 4,
+    "spam": 2,
+    "technical": 4
+  },
+  "agreement": [
+    {
+      "annotators": [
+        "ann_a",
+        "ann_b"
+      ],
+      "shared_items": 10,
+      "exact_match": 0.8,
+      "cohens_kappa": 0.7436
+    }
+  ],
+  "disagreements": [
+    {
+      "item_id": "m-006",
+      "ann_a": "billing",
+      "ann_b": "cancellation"
+    },
+    {
+      "item_id": "m-008",
+      "ann_a": "cancellation",
+      "ann_b": "billing"
+    }
+  ],
+  "against_gold": {
+    "ann_a": {
+      "checked_items": 10,
+      "accuracy": 1.0,
+      "per_label": {
+        "billing": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "gold_items": 3
+        },
+        "cancellation": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "gold_items": 2
+        },
+        "praise": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "gold_items": 2
+        },
+        "spam": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "gold_items": 1
+        },
+        "technical": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "gold_items": 2
+        }
+      }
+    },
+    "ann_b": {
+      "checked_items": 10,
+      "accuracy": 0.8,
+      "per_label": {
+        "billing": {
+          "precision": 0.6667,
+          "recall": 0.6667,
+          "f1": 0.6667,
+          "gold_items": 3
+        },
+        "cancellation": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "gold_items": 2
+        },
+        "praise": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "gold_items": 2
+        },
+        "spam": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "gold_items": 1
+        },
+        "technical": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "gold_items": 2
+        }
+      }
+    }
+  }
+}

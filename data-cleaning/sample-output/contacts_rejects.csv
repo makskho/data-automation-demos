@@ -1,0 +1,9 @@
+source_row,reason,id,name,email,phone,signup_date,amount
+5,duplicate email of row 2,4,Dmitri Sokolov,ANNA.PETROVA@example.com,+66 81 234 5670,2026-02-01,10.00
+6,email is not a valid address: 'emilie@',5,Émilie Dubois,emilie@,+33 6 12 34 56 78,2026-02-03,50
+7,"phone has 5 digits, expected 8-15: '12345'",6,Farid Rahimi,farid.rahimi@example.com,12345,2026-02-05,75.25
+8,signup_date '03/04/2026' is ambiguous: 3 and 4 can both be the month,7,Grace Okafor,grace.okafor@example.com,+234 802 123 4567,03/04/2026,120
+9,signup_date is not a real date: '2026-02-30' (day is out of range for month),8,Hana Sato,hana.sato@example.jp,+81 90 1234 5678,2026-02-30,90
+10,amount contains unexpected characters: '-5',9,Igor Volkov,igor.volkov@example.com,+7 916 123 45 67,2026-02-10,-5
+11,amount contains unexpected characters: 'about 40',10,Julia Moreau,julia.moreau@example.fr,+33 6 98 76 54 32,2026-02-11,about 40
+12,amount is empty,11,Kenji Ito,kenji.ito@example.jp,+81 80 8765 4321,2026-02-12,

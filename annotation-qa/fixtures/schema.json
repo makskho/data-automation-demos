@@ -1,0 +1,11 @@
+{
+  "labels": [
+    "billing",
+    "technical",
+    "cancellation",
+    "praise",
+    "spam"
+  ],
+  "min_confidence": 0.5,
+  "requires_span": false
+}

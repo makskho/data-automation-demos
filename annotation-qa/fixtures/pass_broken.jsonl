@@ -1,0 +1,9 @@
+{"item_id": "m-001", "text": "My invoice shows two charges for the same month.", "label": "refund", "annotator": "ann_c", "confidence": 0.9}
+{"item_id": "m-002", "text": "The export button does nothing in Firefox.", "label": "technical", "annotator": "ann_c", "confidence": 0.2}
+{"item_id": "m-003", "text": "Please close my account at the end of the term.", "label": "technical", "annotator": "ann_c", "confidence": 1.6}
+{"item_id": "m-004", "text": "ok", "annotator": "ann_c"}
+{"item_id": "m-005", "text": "short", "label": "spam", "annotator": "ann_c", "span": [0, 99]}
+{"item_id": "m-006", "text": "x", "label": "spam", "annotator": "ann_c", "span": [3, 1]}
+{"item_id": "m-007" "text": broken json
+{"item_id": "m-008", "text": "Cancel the renewal but keep my data please.", "label": "billing", "annotator": "ann_c", "confidence": 0.9}
+{"item_id": "m-008", "text": "Cancel the renewal but keep my data please.", "label": "praise", "annotator": "ann_c", "confidence": 0.9}

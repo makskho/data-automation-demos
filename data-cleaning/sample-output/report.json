@@ -1,0 +1,14 @@
+{
+  "input": "contacts_raw.csv",
+  "rows_read": 12,
+  "rows_written": 4,
+  "rows_rejected": 8,
+  "dedup_key": "email",
+  "reject_reasons": {
+    "amount": 3,
+    "duplicate": 1,
+    "email": 1,
+    "phone": 1,
+    "signup_date": 2
+  }
+}

@@ -1,0 +1,10 @@
+{"item_id": "m-001", "text": "My invoice shows two charges for the same month.", "label": "billing", "annotator": "gold", "confidence": 0.9}
+{"item_id": "m-002", "text": "The export button does nothing in Firefox.", "label": "technical", "annotator": "gold", "confidence": 0.9}
+{"item_id": "m-003", "text": "Please close my account at the end of the term.", "label": "cancellation", "annotator": "gold", "confidence": 0.9}
+{"item_id": "m-004", "text": "Support fixed it in ten minutes, thank you.", "label": "praise", "annotator": "gold", "confidence": 0.9}
+{"item_id": "m-005", "text": "EARN $$$ FROM HOME, click this link now", "label": "spam", "annotator": "gold", "confidence": 0.9}
+{"item_id": "m-006", "text": "I was billed after cancelling, can you refund it?", "label": "billing", "annotator": "gold", "confidence": 0.9}
+{"item_id": "m-007", "text": "App crashes when I upload a 40 MB file.", "label": "technical", "annotator": "gold", "confidence": 0.9}
+{"item_id": "m-008", "text": "Cancel the renewal but keep my data please.", "label": "cancellation", "annotator": "gold", "confidence": 0.9}
+{"item_id": "m-009", "text": "Great update, the new report view is much faster.", "label": "praise", "annotator": "gold", "confidence": 0.9}
+{"item_id": "m-010", "text": "Why is the VAT different from last quarter?", "label": "billing", "annotator": "gold", "confidence": 0.9}
