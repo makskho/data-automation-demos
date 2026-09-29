@@ -2,7 +2,8 @@
 
 Two small tools that show how I work rather than describe it: what the rules are, what happens when
 the input breaks them, and how the result is verified. Both run on Python 3.9+ with the standard
-library, so there is nothing to install before trying them.
+library, so there is nothing to install before trying them. A third folder holds Russian text samples
+written to a synthetic brief.
 
 All inputs here are synthetic. No client data appears in this repository.
 
@@ -10,6 +11,7 @@ All inputs here are synthetic. No client data appears in this repository.
 |---|---|---|
 | [`data-cleaning/`](data-cleaning) | Cleans and validates a messy contact export: trims and normalises text, emails, international phones, dates and amounts, removes duplicates, and separates rows it cannot prove correct | 20 tests, sample before/after artifacts |
 | [`annotation-qa/`](annotation-qa) | Quality-controls a labelled dataset: validates it against a declared schema, measures inter-annotator agreement with Cohen's kappa, and scores annotators against a gold set | 20 tests, sample report |
+| [`copywriting/`](copywriting) | Three Russian texts written to a synthetic brief for an imaginary small business: a blog article, a social-media post and a landing-page offer | length and stock-phrase check with a failing self-test (`check_texts.py`) |
 
 ## The idea both samples share
 
