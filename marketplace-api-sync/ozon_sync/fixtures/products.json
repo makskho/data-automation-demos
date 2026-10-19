@@ -1,0 +1,386 @@
+{
+  "_meta": {
+    "synthetic": true,
+    "note": "Synthetic demo data in the shape of Ozon Seller API responses. Not real shop data."
+  },
+  "warehouses": [
+    {
+      "warehouse_id": 22134510000,
+      "name": "Основной склад (Москва)",
+      "is_rfbs": false,
+      "status": "created"
+    },
+    {
+      "warehouse_id": 22134510001,
+      "name": "Склад Подольск",
+      "is_rfbs": false,
+      "status": "created"
+    }
+  ],
+  "products": [
+    {
+      "product_id": 1804000100,
+      "sku": 1480300000,
+      "offer_id": "KR-350-WH",
+      "name": "Кружка керамическая 350 мл, белая",
+      "archived": false,
+      "price": {
+        "price": "390",
+        "old_price": "520",
+        "min_price": "340",
+        "net_price": "150",
+        "currency_code": "RUB"
+      },
+      "stocks": [
+        {
+          "type": "fbs",
+          "present": 120,
+          "reserved": 4
+        },
+        {
+          "type": "fbo",
+          "present": 80,
+          "reserved": 0
+        }
+      ]
+    },
+    {
+      "product_id": 1804000107,
+      "sku": 1480300013,
+      "offer_id": "KR-350-BK",
+      "name": "Кружка керамическая 350 мл, чёрная",
+      "archived": false,
+      "price": {
+        "price": "390",
+        "old_price": "520",
+        "min_price": "340",
+        "net_price": "150",
+        "currency_code": "RUB"
+      },
+      "stocks": [
+        {
+          "type": "fbs",
+          "present": 95,
+          "reserved": 2
+        },
+        {
+          "type": "fbo",
+          "present": 60,
+          "reserved": 0
+        }
+      ]
+    },
+    {
+      "product_id": 1804000114,
+      "sku": 1480300026,
+      "offer_id": "PL-150-GR",
+      "name": "Плед флисовый 150x200 см, серый",
+      "archived": false,
+      "price": {
+        "price": "1290",
+        "old_price": "1790",
+        "min_price": "1100",
+        "net_price": "520",
+        "currency_code": "RUB"
+      },
+      "stocks": [
+        {
+          "type": "fbs",
+          "present": 34,
+          "reserved": 3
+        },
+        {
+          "type": "fbo",
+          "present": 12,
+          "reserved": 0
+        }
+      ]
+    },
+    {
+      "product_id": 1804000121,
+      "sku": 1480300039,
+      "offer_id": "PL-150-BE",
+      "name": "Плед флисовый 150x200 см, бежевый",
+      "archived": false,
+      "price": {
+        "price": "1290",
+        "old_price": "1790",
+        "min_price": "1100",
+        "net_price": "520",
+        "currency_code": "RUB"
+      },
+      "stocks": [
+        {
+          "type": "fbs",
+          "present": 41,
+          "reserved": 0
+        },
+        {
+          "type": "fbo",
+          "present": 0,
+          "reserved": 0
+        }
+      ]
+    },
+    {
+      "product_id": 1804000128,
+      "sku": 1480300052,
+      "offer_id": "PD-5050-2",
+      "name": "Наволочка декоративная 50x50 см, 2 шт.",
+      "archived": false,
+      "price": {
+        "price": "560",
+        "old_price": "0",
+        "min_price": "480",
+        "net_price": "210",
+        "currency_code": "RUB"
+      },
+      "stocks": [
+        {
+          "type": "fbs",
+          "present": 77,
+          "reserved": 5
+        },
+        {
+          "type": "fbo",
+          "present": 40,
+          "reserved": 0
+        }
+      ]
+    },
+    {
+      "product_id": 1804000135,
+      "sku": 1480300065,
+      "offer_id": "SH-LED-3M",
+      "name": "Светодиодная лента 3 м, тёплый белый",
+      "archived": false,
+      "price": {
+        "price": "740",
+        "old_price": "990",
+        "min_price": "650",
+        "net_price": "300",
+        "currency_code": "RUB"
+      },
+      "stocks": [
+        {
+          "type": "fbs",
+          "present": 0,
+          "reserved": 0
+        },
+        {
+          "type": "fbo",
+          "present": 25,
+          "reserved": 0
+        }
+      ]
+    },
+    {
+      "product_id": 1804000142,
+      "sku": 1480300078,
+      "offer_id": "CT-BAM-S",
+      "name": "Разделочная доска бамбуковая, S",
+      "archived": false,
+      "price": {
+        "price": "450",
+        "old_price": "0",
+        "min_price": "380",
+        "net_price": "160",
+        "currency_code": "RUB"
+      },
+      "stocks": [
+        {
+          "type": "fbs",
+          "present": 58,
+          "reserved": 1
+        },
+        {
+          "type": "fbo",
+          "present": 0,
+          "reserved": 0
+        }
+      ]
+    },
+    {
+      "product_id": 1804000149,
+      "sku": 1480300091,
+      "offer_id": "CT-BAM-L",
+      "name": "Разделочная доска бамбуковая, L",
+      "archived": false,
+      "price": {
+        "price": "830",
+        "old_price": "1100",
+        "min_price": "720",
+        "net_price": "340",
+        "currency_code": "RUB"
+      },
+      "stocks": [
+        {
+          "type": "fbs",
+          "present": 19,
+          "reserved": 2
+        },
+        {
+          "type": "fbo",
+          "present": 9,
+          "reserved": 0
+        }
+      ]
+    },
+    {
+      "product_id": 1804000156,
+      "sku": 1480300104,
+      "offer_id": "OR-BOX-3",
+      "name": "Органайзер для хранения, набор 3 шт.",
+      "archived": false,
+      "price": {
+        "price": "1150",
+        "old_price": "1490",
+        "min_price": "990",
+        "net_price": "480",
+        "currency_code": "RUB"
+      },
+      "stocks": [
+        {
+          "type": "fbs",
+          "present": 26,
+          "reserved": 0
+        },
+        {
+          "type": "fbo",
+          "present": 14,
+          "reserved": 0
+        }
+      ]
+    },
+    {
+      "product_id": 1804000163,
+      "sku": 1480300117,
+      "offer_id": "TR-USB-C1",
+      "name": "Кабель USB-C 1 м, плетёный",
+      "archived": false,
+      "price": {
+        "price": "320",
+        "old_price": "450",
+        "min_price": "270",
+        "net_price": "90",
+        "currency_code": "RUB"
+      },
+      "stocks": [
+        {
+          "type": "fbs",
+          "present": 210,
+          "reserved": 11
+        },
+        {
+          "type": "fbo",
+          "present": 150,
+          "reserved": 0
+        }
+      ]
+    },
+    {
+      "product_id": 1804000170,
+      "sku": 1480300130,
+      "offer_id": "TR-USB-C2",
+      "name": "Кабель USB-C 2 м, плетёный",
+      "archived": false,
+      "price": {
+        "price": "410",
+        "old_price": "590",
+        "min_price": "350",
+        "net_price": "120",
+        "currency_code": "RUB"
+      },
+      "stocks": [
+        {
+          "type": "fbs",
+          "present": 162,
+          "reserved": 6
+        },
+        {
+          "type": "fbo",
+          "present": 98,
+          "reserved": 0
+        }
+      ]
+    },
+    {
+      "product_id": 1804000177,
+      "sku": 1480300143,
+      "offer_id": "LM-DSK-W",
+      "name": "Лампа настольная, белая",
+      "archived": false,
+      "price": {
+        "price": "1890",
+        "old_price": "2490",
+        "min_price": "1650",
+        "net_price": "760",
+        "currency_code": "RUB"
+      },
+      "stocks": [
+        {
+          "type": "fbs",
+          "present": 12,
+          "reserved": 1
+        },
+        {
+          "type": "fbo",
+          "present": 0,
+          "reserved": 0
+        }
+      ]
+    },
+    {
+      "product_id": 1804000184,
+      "sku": 1480300156,
+      "offer_id": "SP-MST-6",
+      "name": "Набор кухонных ёмкостей для специй, 6 шт.",
+      "archived": false,
+      "price": {
+        "price": "980",
+        "old_price": "1290",
+        "min_price": "850",
+        "net_price": "400",
+        "currency_code": "RUB"
+      },
+      "stocks": [
+        {
+          "type": "fbs",
+          "present": 44,
+          "reserved": 2
+        },
+        {
+          "type": "fbo",
+          "present": 31,
+          "reserved": 0
+        }
+      ]
+    },
+    {
+      "product_id": 1804000191,
+      "sku": 1480300169,
+      "offer_id": "HK-ADH-10",
+      "name": "Крючки самоклеящиеся, 10 шт.",
+      "archived": false,
+      "price": {
+        "price": "190",
+        "old_price": "0",
+        "min_price": "160",
+        "net_price": "55",
+        "currency_code": "RUB"
+      },
+      "stocks": [
+        {
+          "type": "fbs",
+          "present": 0,
+          "reserved": 0
+        },
+        {
+          "type": "fbo",
+          "present": 0,
+          "reserved": 0
+        }
+      ]
+    }
+  ]
+}

@@ -16,6 +16,8 @@ All inputs here are synthetic. No client data appears in this repository.
 | [`web-parser/`](web-parser) | Catalogue crawler: pagination and product pages to a formatted Excel/CSV, polite delays, retries, resumable checkpoint, CLI; runs on the public books.toscrape.com sandbox | 38 tests, sample .xlsx/.csv output |
 | [`nextjs-crm-api/`](nextjs-crm-api) | Mini-CRM REST API on Next.js, TypeScript and PostgreSQL/Drizzle: client CRUD and search, document upload/download with Cyrillic file names (RFC 5987), optimistic locking (409) | 18 tests on PGlite, type check |
 | [`translation-editing/`](translation-editing) | RU↔EN translation samples (Wikipedia CC BY-SA, USGS public domain) and editing samples (Russian literary, English business) as side-by-side and tracked-changes DOCX | rebuilt and checked by `build_samples.py` (numbers, glossary, untranslated words) |
+| [`form-leads-router/`](form-leads-router) | Site-form webhook (Flask): Tilda form-urlencoded and WordPress/CF7 JSON, phone and email normalisation, honeypot, 10-minute dedupe, fan-out to Google Sheets, Telegram and SMTP with a SQLite outbox and a `retry` command | 60 offline tests |
+| [`marketplace-api-sync/`](marketplace-api-sync) | Ozon Seller API ⇄ Excel CLI: export products with prices and stocks, update them from an edited sheet (dry-run diff by default, `--apply`, batching, 429 retry, sheet validation), export FBS postings for a date range | 54 tests against a local fake API, synthetic data |
 
 ## The idea both samples share
 

@@ -1,0 +1,6 @@
+flask>=3.0,<4
+httpx>=0.27,<1
+gspread>=6.0,<7
+python-dotenv>=1.0,<2
+tzdata
+gunicorn>=22; sys_platform != "win32"

@@ -1,0 +1,400 @@
+{
+  "_meta": {
+    "synthetic": true,
+    "note": "Synthetic demo data in the shape of Ozon Seller API responses. Not real shop data."
+  },
+  "postings": [
+    {
+      "posting_number": "48172950-0001-1",
+      "order_id": 53000172950,
+      "order_number": "48172950-0001",
+      "status": "delivered",
+      "delivery_method": {
+        "id": 1001,
+        "name": "Ozon Логистика курьер",
+        "warehouse": "Основной склад (Москва)"
+      },
+      "tracking_number": "",
+      "in_process_at": "2026-10-01T06:12:44.000Z",
+      "shipment_date": "2026-10-03T09:00:00.000Z",
+      "products": [
+        {
+          "sku": 1480300000,
+          "name": "Кружка керамическая 350 мл, белая",
+          "offer_id": "KR-350-WH",
+          "quantity": 2,
+          "price": "390.0000",
+          "currency_code": "RUB"
+        }
+      ],
+      "analytics_data": {
+        "city": "Москва",
+        "region": "",
+        "delivery_type": "PVZ",
+        "payment_type_group_name": "Карты оплаты"
+      }
+    },
+    {
+      "posting_number": "48172950-0002-1",
+      "order_id": 53000172950,
+      "order_number": "48172950-0002",
+      "status": "delivered",
+      "delivery_method": {
+        "id": 1001,
+        "name": "Ozon Логистика ПВЗ",
+        "warehouse": "Основной склад (Москва)"
+      },
+      "tracking_number": "",
+      "in_process_at": "2026-10-02T09:40:10.000Z",
+      "shipment_date": "2026-10-04T09:00:00.000Z",
+      "products": [
+        {
+          "sku": 1480300026,
+          "name": "Плед флисовый 150x200 см, серый",
+          "offer_id": "PL-150-GR",
+          "quantity": 1,
+          "price": "1290.0000",
+          "currency_code": "RUB"
+        },
+        {
+          "sku": 1480300052,
+          "name": "Наволочка декоративная 50x50 см, 2 шт.",
+          "offer_id": "PD-5050-2",
+          "quantity": 1,
+          "price": "560.0000",
+          "currency_code": "RUB"
+        }
+      ],
+      "analytics_data": {
+        "city": "Казань",
+        "region": "",
+        "delivery_type": "PVZ",
+        "payment_type_group_name": "Карты оплаты"
+      }
+    },
+    {
+      "posting_number": "48201377-0001-1",
+      "order_id": 53000201377,
+      "order_number": "48201377-0001",
+      "status": "cancelled",
+      "delivery_method": {
+        "id": 1001,
+        "name": "Ozon Логистика ПВЗ",
+        "warehouse": "Основной склад (Москва)"
+      },
+      "tracking_number": "",
+      "in_process_at": "2026-10-03T17:05:31.000Z",
+      "shipment_date": "2026-10-05T17:00:00.000Z",
+      "products": [
+        {
+          "sku": 1480300065,
+          "name": "Светодиодная лента 3 м, тёплый белый",
+          "offer_id": "SH-LED-3M",
+          "quantity": 1,
+          "price": "740.0000",
+          "currency_code": "RUB"
+        }
+      ],
+      "analytics_data": {
+        "city": "Самара",
+        "region": "",
+        "delivery_type": "PVZ",
+        "payment_type_group_name": "Карты оплаты"
+      }
+    },
+    {
+      "posting_number": "48230981-0001-1",
+      "order_id": 53000230981,
+      "order_number": "48230981-0001",
+      "status": "delivered",
+      "delivery_method": {
+        "id": 1001,
+        "name": "Ozon Логистика курьер",
+        "warehouse": "Основной склад (Москва)"
+      },
+      "tracking_number": "",
+      "in_process_at": "2026-10-05T20:48:02.000Z",
+      "shipment_date": "2026-10-07T20:00:00.000Z",
+      "products": [
+        {
+          "sku": 1480300117,
+          "name": "Кабель USB-C 1 м, плетёный",
+          "offer_id": "TR-USB-C1",
+          "quantity": 3,
+          "price": "320.0000",
+          "currency_code": "RUB"
+        }
+      ],
+      "analytics_data": {
+        "city": "Санкт-Петербург",
+        "region": "",
+        "delivery_type": "PVZ",
+        "payment_type_group_name": "Карты оплаты"
+      }
+    },
+    {
+      "posting_number": "48257404-0001-1",
+      "order_id": 53000257404,
+      "order_number": "48257404-0001",
+      "status": "delivering",
+      "delivery_method": {
+        "id": 1001,
+        "name": "Ozon Логистика ПВЗ",
+        "warehouse": "Основной склад (Москва)"
+      },
+      "tracking_number": "",
+      "in_process_at": "2026-10-07T08:20:55.000Z",
+      "shipment_date": "2026-10-09T09:00:00.000Z",
+      "products": [
+        {
+          "sku": 1480300091,
+          "name": "Разделочная доска бамбуковая, L",
+          "offer_id": "CT-BAM-L",
+          "quantity": 1,
+          "price": "830.0000",
+          "currency_code": "RUB"
+        },
+        {
+          "sku": 1480300078,
+          "name": "Разделочная доска бамбуковая, S",
+          "offer_id": "CT-BAM-S",
+          "quantity": 1,
+          "price": "450.0000",
+          "currency_code": "RUB"
+        }
+      ],
+      "analytics_data": {
+        "city": "Екатеринбург",
+        "region": "",
+        "delivery_type": "PVZ",
+        "payment_type_group_name": "Карты оплаты"
+      }
+    },
+    {
+      "posting_number": "48257404-0002-1",
+      "order_id": 53000257404,
+      "order_number": "48257404-0002",
+      "status": "delivering",
+      "delivery_method": {
+        "id": 1001,
+        "name": "Ozon Логистика ПВЗ",
+        "warehouse": "Основной склад (Москва)"
+      },
+      "tracking_number": "",
+      "in_process_at": "2026-10-07T21:59:59.000Z",
+      "shipment_date": "2026-10-09T21:00:00.000Z",
+      "products": [
+        {
+          "sku": 1480300104,
+          "name": "Органайзер для хранения, набор 3 шт.",
+          "offer_id": "OR-BOX-3",
+          "quantity": 1,
+          "price": "1150.0000",
+          "currency_code": "RUB"
+        }
+      ],
+      "analytics_data": {
+        "city": "Новосибирск",
+        "region": "",
+        "delivery_type": "PVZ",
+        "payment_type_group_name": "Карты оплаты"
+      }
+    },
+    {
+      "posting_number": "48290215-0001-1",
+      "order_id": 53000290215,
+      "order_number": "48290215-0001",
+      "status": "delivering",
+      "delivery_method": {
+        "id": 1001,
+        "name": "Ozon Логистика курьер",
+        "warehouse": "Основной склад (Москва)"
+      },
+      "tracking_number": "",
+      "in_process_at": "2026-10-08T00:00:00.000Z",
+      "shipment_date": "2026-10-10T09:00:00.000Z",
+      "products": [
+        {
+          "sku": 1480300143,
+          "name": "Лампа настольная, белая",
+          "offer_id": "LM-DSK-W",
+          "quantity": 1,
+          "price": "1890.0000",
+          "currency_code": "RUB"
+        }
+      ],
+      "analytics_data": {
+        "city": "Москва",
+        "region": "",
+        "delivery_type": "PVZ",
+        "payment_type_group_name": "Карты оплаты"
+      }
+    },
+    {
+      "posting_number": "48311862-0001-1",
+      "order_id": 53000311862,
+      "order_number": "48311862-0001",
+      "status": "awaiting_deliver",
+      "delivery_method": {
+        "id": 1001,
+        "name": "Ozon Логистика ПВЗ",
+        "warehouse": "Основной склад (Москва)"
+      },
+      "tracking_number": "",
+      "in_process_at": "2026-10-09T11:31:18.000Z",
+      "shipment_date": "2026-10-11T11:00:00.000Z",
+      "products": [
+        {
+          "sku": 1480300156,
+          "name": "Набор кухонных ёмкостей для специй, 6 шт.",
+          "offer_id": "SP-MST-6",
+          "quantity": 2,
+          "price": "980.0000",
+          "currency_code": "RUB"
+        }
+      ],
+      "analytics_data": {
+        "city": "Нижний Новгород",
+        "region": "",
+        "delivery_type": "PVZ",
+        "payment_type_group_name": "Карты оплаты"
+      }
+    },
+    {
+      "posting_number": "48335740-0001-1",
+      "order_id": 53000335740,
+      "order_number": "48335740-0001",
+      "status": "awaiting_deliver",
+      "delivery_method": {
+        "id": 1001,
+        "name": "Ozon Логистика курьер",
+        "warehouse": "Основной склад (Москва)"
+      },
+      "tracking_number": "",
+      "in_process_at": "2026-10-10T14:02:40.000Z",
+      "shipment_date": "2026-10-12T14:00:00.000Z",
+      "products": [
+        {
+          "sku": 1480300130,
+          "name": "Кабель USB-C 2 м, плетёный",
+          "offer_id": "TR-USB-C2",
+          "quantity": 1,
+          "price": "410.0000",
+          "currency_code": "RUB"
+        },
+        {
+          "sku": 1480300117,
+          "name": "Кабель USB-C 1 м, плетёный",
+          "offer_id": "TR-USB-C1",
+          "quantity": 1,
+          "price": "320.0000",
+          "currency_code": "RUB"
+        }
+      ],
+      "analytics_data": {
+        "city": "Краснодар",
+        "region": "",
+        "delivery_type": "PVZ",
+        "payment_type_group_name": "Карты оплаты"
+      }
+    },
+    {
+      "posting_number": "48358126-0001-1",
+      "order_id": 53000358126,
+      "order_number": "48358126-0001",
+      "status": "awaiting_packaging",
+      "delivery_method": {
+        "id": 1001,
+        "name": "Ozon Логистика курьер",
+        "warehouse": "Основной склад (Москва)"
+      },
+      "tracking_number": "",
+      "in_process_at": "2026-10-12T07:45:12.000Z",
+      "shipment_date": "2026-10-14T09:00:00.000Z",
+      "products": [
+        {
+          "sku": 1480300013,
+          "name": "Кружка керамическая 350 мл, чёрная",
+          "offer_id": "KR-350-BK",
+          "quantity": 4,
+          "price": "390.0000",
+          "currency_code": "RUB"
+        }
+      ],
+      "analytics_data": {
+        "city": "Москва",
+        "region": "",
+        "delivery_type": "PVZ",
+        "payment_type_group_name": "Карты оплаты"
+      }
+    },
+    {
+      "posting_number": "48358126-0002-1",
+      "order_id": 53000358126,
+      "order_number": "48358126-0002",
+      "status": "awaiting_packaging",
+      "delivery_method": {
+        "id": 1001,
+        "name": "Ozon Логистика ПВЗ",
+        "warehouse": "Основной склад (Москва)"
+      },
+      "tracking_number": "",
+      "in_process_at": "2026-10-12T10:11:37.000Z",
+      "shipment_date": "2026-10-14T10:00:00.000Z",
+      "products": [
+        {
+          "sku": 1480300039,
+          "name": "Плед флисовый 150x200 см, бежевый",
+          "offer_id": "PL-150-BE",
+          "quantity": 1,
+          "price": "1290.0000",
+          "currency_code": "RUB"
+        }
+      ],
+      "analytics_data": {
+        "city": "Воронеж",
+        "region": "",
+        "delivery_type": "PVZ",
+        "payment_type_group_name": "Карты оплаты"
+      }
+    },
+    {
+      "posting_number": "48381593-0001-1",
+      "order_id": 53000381593,
+      "order_number": "48381593-0001",
+      "status": "awaiting_packaging",
+      "delivery_method": {
+        "id": 1001,
+        "name": "Ozon Логистика ПВЗ",
+        "warehouse": "Основной склад (Москва)"
+      },
+      "tracking_number": "",
+      "in_process_at": "2026-10-14T05:30:00.000Z",
+      "shipment_date": "2026-10-16T09:00:00.000Z",
+      "products": [
+        {
+          "sku": 1480300052,
+          "name": "Наволочка декоративная 50x50 см, 2 шт.",
+          "offer_id": "PD-5050-2",
+          "quantity": 2,
+          "price": "560.0000",
+          "currency_code": "RUB"
+        },
+        {
+          "sku": 1480300078,
+          "name": "Разделочная доска бамбуковая, S",
+          "offer_id": "CT-BAM-S",
+          "quantity": 2,
+          "price": "450.0000",
+          "currency_code": "RUB"
+        }
+      ],
+      "analytics_data": {
+        "city": "Пермь",
+        "region": "",
+        "delivery_type": "PVZ",
+        "payment_type_group_name": "Карты оплаты"
+      }
+    }
+  ]
+}
