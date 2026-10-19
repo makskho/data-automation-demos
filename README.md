@@ -1,6 +1,6 @@
 # Data and document automation — work samples
 
-Two small tools that show how I work rather than describe it: what the rules are, what happens when
+Small tools and samples that show how I work rather than describe it: what the rules are, what happens when
 the input breaks them, and how the result is verified. Both run on Python 3.9+ with the standard
 library, so there is nothing to install before trying them. A third folder holds Russian text samples
 written to a synthetic brief.
@@ -12,6 +12,10 @@ All inputs here are synthetic. No client data appears in this repository.
 | [`data-cleaning/`](data-cleaning) | Cleans and validates a messy contact export: trims and normalises text, emails, international phones, dates and amounts, removes duplicates, and separates rows it cannot prove correct | 20 tests, sample before/after artifacts |
 | [`annotation-qa/`](annotation-qa) | Quality-controls a labelled dataset: validates it against a declared schema, measures inter-annotator agreement with Cohen's kappa, and scores annotators against a gold set | 20 tests, sample report |
 | [`copywriting/`](copywriting) | Three Russian texts written to a synthetic brief for an imaginary small business: a blog article, a social-media post and a landing-page offer | length and stock-phrase check with a failing self-test (`check_texts.py`) |
+| [`telegram-bot/`](telegram-bot) | Telegram bot on aiogram 3: FAQ menu from an editable YAML file, lead form with phone validation and anti-flood, SQLite storage, admin notification, `/export` to .xlsx | 84 offline tests |
+| [`web-parser/`](web-parser) | Catalogue crawler: pagination and product pages to a formatted Excel/CSV, polite delays, retries, resumable checkpoint, CLI; runs on the public books.toscrape.com sandbox | 38 tests, sample .xlsx/.csv output |
+| [`nextjs-crm-api/`](nextjs-crm-api) | Mini-CRM REST API on Next.js, TypeScript and PostgreSQL/Drizzle: client CRUD and search, document upload/download with Cyrillic file names (RFC 5987), optimistic locking (409) | 18 tests on PGlite, type check |
+| [`translation-editing/`](translation-editing) | RU↔EN translation samples (Wikipedia CC BY-SA, USGS public domain) and editing samples (Russian literary, English business) as side-by-side and tracked-changes DOCX | rebuilt and checked by `build_samples.py` (numbers, glossary, untranslated words) |
 
 ## The idea both samples share
 
